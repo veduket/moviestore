@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/wazery/ratyrate.git
-  revision: ffadfe2cfce144823eae6378a5a9badc5ff955c4
+  remote: https://github.com/wazery/ratyrate.git
+  revision: 718e4f9e340e2c7fbf76e190f3bb298ce291b711
   specs:
-    ratyrate (1.2.0.alpha)
+    ratyrate (1.2.2.alpha)
 
 GEM
   remote: http://rubygems.org/
@@ -49,6 +49,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.1)
+    concurrent-ruby (1.1.10)
     debug_inspector (0.0.2)
     devise (3.2.4)
       bcrypt (~> 3.0)
@@ -62,7 +63,8 @@ GEM
       railties (>= 3.1.0)
       sass (>= 3.2.0)
     hike (1.2.3)
-    i18n (0.6.11)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jbuilder (2.1.3)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
