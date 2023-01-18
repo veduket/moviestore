@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/wazery/ratyrate.git
-  revision: ffadfe2cfce144823eae6378a5a9badc5ff955c4
+  remote: https://github.com/wazery/ratyrate.git
+  revision: 718e4f9e340e2c7fbf76e190f3bb298ce291b711
   specs:
-    ratyrate (1.2.0.alpha)
+    ratyrate (1.2.2.alpha)
 
 GEM
   remote: http://rubygems.org/
@@ -90,7 +90,7 @@ GEM
       pry (>= 0.9.11)
     quiet_assets (1.0.3)
       railties (>= 3.1, < 5.0)
-    rack (1.5.2)
+    rack (1.5.5)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.1.1)
